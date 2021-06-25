@@ -1,5 +1,19 @@
+.header {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
 .logo {
     width: 15rem;
     height: 15rem;
+}
+
+.links {
+
+    &>a {
+        margin-right: 2rem;
+    }
 
 }
