@@ -6,7 +6,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as classes from "./header.module.scss"
 
 const Header = () => (
-  <header className={classes.header}>
+  <header>
+    <nav className={classes.nav}>
  <StaticImage
       className={classes.logo}
       src="../../images/logo-black-whitebg.png"
@@ -14,9 +15,11 @@ const Header = () => (
       alt="Marine Archipelago"
     />
     <div className={classes.links}>
+      <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact us</Link>
     </div>
+    </nav>
 </header>
 )
 
