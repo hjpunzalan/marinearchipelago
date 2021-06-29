@@ -1,25 +1,16 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import * as classes from "./header.module.scss"
+import Container from '../container/container'
+import Nav from '../navigation/nav'
 
 const Header = () => (
   <header className={classes.header}>
-    <nav className={classes.nav}>
- <StaticImage
-      className={classes.logo}
-      src="../../images/logo-white-transparentbg.png"
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="Marine Archipelago"
-    />
-    <div className={classes.links}>
-      <Link to="/">Home</Link>
-      <Link to="/about">About us</Link>
-      <Link to="/contact">Contact us</Link>
-    </div>
-    </nav>
+    <Container>
+    <Nav/>
+
     <div className={classes.desc}>
       <h1>
         Discover world-class marine and subsea expertise
@@ -27,16 +18,9 @@ const Header = () => (
       <button className={classes.cta}>
         Learn more
       </button>
-    </div>
+      </div>
+      </Container>
 </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

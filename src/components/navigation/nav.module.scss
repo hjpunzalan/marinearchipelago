@@ -1,0 +1,35 @@
+@import '../../styles/layout';
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20rem;
+}
+
+.links {
+    margin-right: 5vw;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    &>a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+
+        &:hover {
+            padding-bottom: 1rem;
+            border-bottom: 3px solid white;
+        }
+
+        &:not(:last-of-type) {
+            margin-right: 3rem;
+        }
+    }
+
+}
