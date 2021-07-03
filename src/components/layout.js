@@ -8,7 +8,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-import Header from "./header/header"
 import "../styles/_main.scss"
 
 const Layout = ({ children }) => {
@@ -16,8 +15,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header />
-     
         <main>{children}</main>
         <footer
           style={{
