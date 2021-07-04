@@ -1,8 +1,9 @@
-@import '../../styles/layout';
+@import '../../layout';
+
 
 .header {
     background-image: linear-gradient(to right bottom, rgba(0, 23, 53, 0.7), rgba(179, 116, 64, 0.5), rgba(0, 53, 97, 0.8)),
-        url('../../images/headerbg.jpg');
+        url('../../../images/headerbg.jpg');
     background-size: cover;
     background-position: top;
     height: 100vh;

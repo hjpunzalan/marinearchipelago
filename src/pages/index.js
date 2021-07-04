@@ -1,20 +1,42 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Header from '../components/header/header'
 import Seo from "../components/seo"
+import Container from '../components/container/container'
+import Nav from '../components/navigation/nav'
+
 import "../styles/_main.scss";
-import { classes } from "istanbul-lib-coverage"
+import * as classes from "../styles/pages/index/index.module.scss"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout mainClassName={classes.main}>
     <Seo title="Archipelago Marine" description="Discover world-class marine and subsea expertise" />
-    <Header />
+
+     <header className={classes.header}>
+      <Container>
+      <Nav/>
+      <div className={classes.desc}>
+       <h1>
+        Discover world-class marine and subsea expertise
+        </h1>
+       <button className={classes.cta}>
+        Learn more
+        </button>
+      </div>
+      </Container>
+    </header>
+    
+
     <section className={classes.about}>
-      <h1>Who we are</h1>
-   </section>
+      <h1>Archipelago Marine is the new industry gold standard</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Nihil doloribus quia perspiciatis dolores commodi cum corporis distinctio molestiae consectetur.
+        Rerum quod asperiores ratione quas, molestias ut deleniti blanditiis necessitatibus alias.
+      </p>
+    </section>
+    <section className={classes.contact}>
+   <h1>contact us</h1>
+    </section>
   </Layout>
 )
 

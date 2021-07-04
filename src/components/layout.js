@@ -10,12 +10,12 @@ import PropTypes from "prop-types"
 
 import "../styles/_main.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, mainClassName }) => {
 
 
   return (
     <>
-        <main>{children}</main>
+        <main className={mainClassName}>{children}</main>
         <footer
           style={{
             marginTop: `2rem`,
