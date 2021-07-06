@@ -12,6 +12,7 @@ const IndexPage = () => (
   <Layout mainClassName={classes.main}>
     <Seo title="Archipelago Marine" description="Discover world-class marine and subsea expertise" />
 
+{/*  ================== HEADER ================== */}
      <header className={classes.header}>
       <Container>
       <Nav/>
@@ -26,7 +27,7 @@ const IndexPage = () => (
       </Container>
     </header>
     
-
+{/*  ================== ABOUT =================== */}
     <section className={classes.about}>
       <h1>Archipelago Marine is the new industry gold standard</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,6 +35,9 @@ const IndexPage = () => (
         Rerum quod asperiores ratione quas, molestias ut deleniti blanditiis necessitatibus alias.
       </p>
     </section>
+
+
+{/*  ================== CONTACT =================== */}
     <section className={classes.contact}>
    <h1>contact us</h1>
     </section>
