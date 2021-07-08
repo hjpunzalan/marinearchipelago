@@ -9,6 +9,7 @@ const Nav = () => (
  <StaticImage
       className={classes.logo}
       src="../../images/logo-white-transparentbg.png"
+      placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Marine Archipelago"
     />
