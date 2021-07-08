@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,7 +9,11 @@ import Nav from '../components/navigation/nav'
 import "../styles/_main.scss";
 import * as classes from "../styles/pages/index/index.module.scss"
 
-const IndexPage = () => (
+
+const IndexPage = () => {
+  console.log()
+
+  return(
   <Layout mainClassName={classes.main}>
     <Seo title="Archipelago Marine" description="Discover world-class marine and subsea expertise" />
 
@@ -34,14 +39,76 @@ const IndexPage = () => (
         Nihil doloribus quia perspiciatis dolores commodi cum corporis distinctio molestiae consectetur.
         Rerum quod asperiores ratione quas, molestias ut deleniti blanditiis necessitatibus alias.
       </p>
+
+      <div className={classes.partners}>
+         <StaticImage
+      className={classes.logo}
+      src="../images/logos/furuno.svg"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Furuno"
+    />
+         <StaticImage
+      className={classes.logo}
+      src="../images/logos/simrad.svg"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Simrad"
+    />
+         <StaticImage
+      className={classes.logo}
+      src="../images/logos/lowrance.svg"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Lowrance"
+    />
+         <StaticImage
+      className={classes.logo}
+      src="../images/logos/icom.svg"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Icom"
+    />
+         <StaticImage
+      className={classes.logo}
+      src="../images/logos/jlaudio.svg"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="jlaudio"
+    />
+         <StaticImage
+      className={classes.logo}
+      src="../images/logos/victronenergy.svg"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Victronenergy"
+    />
+      </div>
     </section>
 
 
 {/*  ================== CONTACT =================== */}
     <section className={classes.contact}>
-   <h1>contact us</h1>
+      <button className={classes.contactButton}>Contact Us</button>
+      <div className={classes.contactCompany}>
+          <div>
+            <h3>Reginald Soriano</h3>
+            <p>
+            Managing Director Electrical<br/>
+            0430 454 466<br />
+            </p>
+          </div>
+          <div>
+            <h3>Paul Hill</h3>
+            <p>
+              Managing Director Electronics<br />
+              0400 028 582<br />
+              </p>
+          </div>
+      </div>
+
     </section>
   </Layout>
-)
+)}
 
 export default IndexPage
