@@ -1,0 +1,56 @@
+@import '../../layout';
+
+.contact {
+    background: rgba(0, 53, 97, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+
+    &Company {
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+        h3 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    &Button {
+        width: 25rem;
+        padding: 3rem;
+        margin-bottom: 5rem;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 15px;
+
+        font-size: 2.5rem;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.5s;
+
+        &:hover {
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.801);
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    .map {
+        margin-top: 5rem;
+        width: 800px;
+        height: 300px;
+        border: 0;
+        box-shadow: 1px 1px 2px 1px;
+    }
+}

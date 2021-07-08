@@ -1,7 +1,9 @@
 @import '../../layout';
 
 .about {
+    background: white;
     padding: $container-side-margin;
+    text-align: center;
 
     h1,
     p {
@@ -9,11 +11,16 @@
     }
 
     h1 {
-        font-size: 5rem;
         margin-bottom: 2rem;
     }
 
     p {
         font-size: 3rem;
     }
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
