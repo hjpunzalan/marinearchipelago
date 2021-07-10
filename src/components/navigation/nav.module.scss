@@ -14,16 +14,16 @@
 
 .links {
     margin-right: 5vw;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
 
     &>a {
         color: white;
         text-decoration: none;
-        transition: 0.3s;
+        transition: 0.2s;
 
         &:hover {
-            padding-bottom: 1rem;
+            padding-bottom: .5rem;
             border-bottom: 3px solid white;
         }
 

@@ -2,10 +2,10 @@
 
 
 .header {
-    background-image: linear-gradient(to right bottom, 
-    rgba(0, 23, 53, 0.7), 
-    rgba(179, 116, 64, 0.5), 
-    rgba(0, 53, 97, 0.8)),
+    background-image: linear-gradient(to right bottom,
+            rgba(0, 23, 53, 0.7),
+            rgba(179, 116, 64, 0.5),
+            rgba(0, 53, 97, 0.8)),
         url('../../../images/headerbg.jpg');
     background-size: cover;
     background-position: top;
@@ -59,7 +59,7 @@
 
 .cta {
     width: 25rem;
-    padding: 3rem;
+    padding: 2rem;
     margin-top: 5rem;
     background: transparent;
     border: 2px solid white;

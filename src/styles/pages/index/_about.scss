@@ -3,6 +3,7 @@
 .about {
     background: white;
     padding: $container-side-margin;
+    padding-bottom: 0px;
     text-align: center;
 
     h1,
@@ -11,16 +12,27 @@
     }
 
     h1 {
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
     }
 
     p {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
 .partners {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
+    .logo {
+        max-width: 15rem;
+
+        &:last-of-type {
+            width: auto;
+            max-width: 28rem;
+        }
+    }
+
 }
