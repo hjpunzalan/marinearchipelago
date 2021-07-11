@@ -17,7 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-    `@formspree/react`
+    `@formspree/react`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
