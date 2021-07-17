@@ -10,7 +10,12 @@ import PropTypes from "prop-types"
 
 import "../styles/_main.scss"
 
-const Layout = ({ children, mainClassName }) => {
+const Layout = ({ children, mainClassName, nav }) => {
+  if (nav) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'unset'
+  }
 
 
   return (

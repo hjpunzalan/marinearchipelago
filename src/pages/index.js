@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -11,16 +11,17 @@ import * as classes from "../styles/pages/index/index.module.scss"
 
 
 const IndexPage = () => {
-  console.log()
+   const [nav, setNav] = useState(false);
+  const toggleNav = () => setNav(!nav)
 
   return(
-  <Layout mainClassName={classes.main}>
+  <Layout mainClassName={classes.main} nav={nav}>
     <Seo title="Archipelago Marine" description="Discover world-class marine and subsea expertise" />
 
 {/*  ================== HEADER ================== */}
      <header className={classes.header}>
       <Container>
-      <Nav/>
+          <Nav nav={nav} toggleNav={toggleNav} />
       <div className={classes.desc}>
        <h1>
         Discover world-class marine and subsea expertise
