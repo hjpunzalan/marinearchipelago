@@ -4,5 +4,5 @@
 
 .main {
     display: grid;
-    grid-template-rows: 100vh 60vh max-content;
+    grid-template-rows: 100vh minmax(50vh, max-content) max-content;
 }

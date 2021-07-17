@@ -40,4 +40,12 @@ input[type="submit"] {
 
 h1 {
     font-size: 5rem;
+
+    @media only screen and (max-width: 1500px) and (min-width: 1200px) {
+        font-size: 3.5rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 3rem;
+    }
 }
