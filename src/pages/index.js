@@ -44,42 +44,42 @@ const IndexPage = () => {
       <div className={classes.partners}>
          <StaticImage
       className={classes.logo}
-      src="../images/logos/furuno.svg"
+      src="../images/logos/furuno.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Furuno"
     />
          <StaticImage
       className={classes.logo}
-      src="../images/logos/simrad.svg"
+      src="../images/logos/simrad.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Simrad"
     />
          <StaticImage
       className={classes.logo}
-      src="../images/logos/lowrance.svg"
+      src="../images/logos/lowrance.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Lowrance"
     />
          <StaticImage
       className={classes.logo}
-      src="../images/logos/icom.svg"
+      src="../images/logos/icom.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Icom"
     />
          <StaticImage
       className={classes.logo}
-      src="../images/logos/jlaudio.svg"
+      src="../images/logos/jlaudio.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="jlaudio"
     />
          <StaticImage
       className={classes.logo}
-      src="../images/logos/victronenergy.svg"
+      src="../images/logos/victronenergy.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Victronenergy"
