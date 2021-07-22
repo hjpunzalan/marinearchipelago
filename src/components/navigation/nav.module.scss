@@ -36,11 +36,11 @@
     overflow: hidden;
 
     @media only screen and (max-width: 600px) {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
 
 
-        margin: -2rem -2vw;
+        margin: -2rem -4vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -95,9 +95,9 @@
 
 
     @media only screen and (max-width: 600px) {
-        background: rgba(179, 116, 64, 1);
+        background: rgba(0, 53, 97, 1);
         width: 100%;
-        padding-right: 4vw;
+        padding-right: 8vw;
         display: flex;
         flex-direction: column;
     }
