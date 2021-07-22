@@ -1,7 +1,7 @@
 @import '../../layout';
 
 .contact {
-    background: rgba(0, 53, 97, 0.8);
+    background: rgba(0, 53, 97, 1);
     color: white;
     display: flex;
     flex-direction: column;
@@ -18,32 +18,24 @@
 
         h3 {
             font-size: 2.5rem;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 2rem;
+            }
         }
 
         p {
             font-size: 1.6rem;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1.2rem;
+            }
         }
     }
 
-    &Button {
-        width: 25rem;
-        padding: 2rem;
+    .cta {
+        margin-top: 0;
         margin-bottom: 3rem;
-        background: transparent;
-        border: 2px solid white;
-        border-radius: 15px;
-
-        font-size: 2.5rem;
-        color: white;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 0.5s;
-
-        &:hover {
-            cursor: pointer;
-            background: rgba(255, 255, 255, 0.801);
-            color: rgb(0, 0, 0);
-        }
     }
 
     .map {

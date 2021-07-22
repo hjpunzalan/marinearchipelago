@@ -49,6 +49,13 @@ const IndexPage = () => {
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Furuno"
     />
+        m <StaticImage
+      className={classes.logo}
+      src="../images/logos/jlaudio.png"
+      placeholder= "BLURRED"
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="jlaudio"
+    />
          <StaticImage
       className={classes.logo}
       src="../images/logos/simrad.png"
@@ -72,13 +79,6 @@ const IndexPage = () => {
     />
          <StaticImage
       className={classes.logo}
-      src="../images/logos/jlaudio.png"
-      placeholder= "BLURRED"
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="jlaudio"
-    />
-         <StaticImage
-      className={classes.logo}
       src="../images/logos/victronenergy.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
@@ -90,7 +90,7 @@ const IndexPage = () => {
 
 {/*  ================== CONTACT =================== */}
     <section className={classes.contact}>
-      <button className={classes.contactButton}>Contact Us</button>
+      <button className={classes.cta}>Contact Us</button>
       <div className={classes.contactCompany}>
           <div>
             <h3>Reginald Soriano</h3>
