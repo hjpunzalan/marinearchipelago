@@ -1,8 +1,8 @@
 @import './header';
 @import './about';
-@import './contact';
 
 .main {
     display: grid;
-    grid-template-rows: 100vh minmax(50vh, max-content) max-content;
+    grid-template-rows: max-content max-content;
+
 }

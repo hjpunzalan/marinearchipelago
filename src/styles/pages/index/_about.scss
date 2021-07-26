@@ -2,28 +2,30 @@
 
 .about {
     background: white;
-    padding: $container-side-margin;
+    padding: 8vw;
     padding-bottom: 0px;
+    padding-top: 0px;
 
+    @media only screen and (max-width: 1000px) {
+        padding: 0;
+    }
 
     @media only screen and (max-width: 450px) {
         padding: $container-side-margin-md;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     h1 {
-        text-align: center;
+        margin-top: 3rem;
         margin-bottom: 5rem;
     }
 
     p {
 
-        font-size: 2.5rem;
+        font-size: 2rem;
 
-        @media only screen and (max-width: 600px) {
-            font-size: 2rem;
-        }
-
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 650px) {
             font-size: 1.6rem;
         }
     }
@@ -34,7 +36,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 7rem;
+
+    @media only screen and (min-width: 1200px) {
+        margin-top: 10rem;
+    }
 
     .logo {
         max-width: 10rem;
@@ -45,13 +51,17 @@
             max-width: 30rem;
 
             @media only screen and (max-width: 1200px) {
-                max-width: 27rem;
+                max-width: 20rem;
             }
         }
 
-
         @media only screen and (max-width: 1200px) {
-            max-width: 10rem;
+            max-width: 7rem;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            max-width: 5rem;
         }
     }
 
