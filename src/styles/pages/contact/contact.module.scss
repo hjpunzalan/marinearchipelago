@@ -1,0 +1,9 @@
+@import './header';
+@import './contact';
+
+.main {
+    min-height: 90vh;
+    display: grid;
+    grid-template-rows: max-content max-content;
+
+}
