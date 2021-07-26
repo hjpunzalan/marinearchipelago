@@ -1,0 +1,40 @@
+@import '../../styles/layout';
+
+footer {
+    background: rgba(0, 53, 97, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+    .contact {
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+
+        h3 {
+            font-size: 1.6rem;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .copyright {
+        margin-top: 2rem;
+    }
+}

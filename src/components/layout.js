@@ -8,7 +8,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
+
 import "../styles/_main.scss"
+import Footer from "./footer/footer"
+
 
 const Layout = ({ children, mainClassName, nav }) => {
   if (nav) {
@@ -21,15 +24,7 @@ const Layout = ({ children, mainClassName, nav }) => {
   return (
     <>
         <main className={mainClassName}>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+    <Footer />
     </>
   )
 }
