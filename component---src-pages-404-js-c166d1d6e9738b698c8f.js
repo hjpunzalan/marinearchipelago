@@ -1,0 +1,2 @@
+(self.webpackChunkMarine_Archipelago=self.webpackChunkMarine_Archipelago||[]).push([[883],{9616:function(e,n,u){"use strict";u.r(n);var a=u(7294),c=u(5444);n.default=function(){return(0,a.useEffect)((function(){(0,c.navigate)("/")}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-404-js-c166d1d6e9738b698c8f.js.map
