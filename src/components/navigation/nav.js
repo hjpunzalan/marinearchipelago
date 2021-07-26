@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "gatsby"
+import React from "react";
+import { Link, navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import * as classes from "./nav.module.scss"
@@ -11,7 +11,8 @@ const Nav = ({nav,toggleNav}) => (
         src="../../images/logo-white-transparentbg.png"
         placeholder="BLURRED"
         formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Marine Archipelago"
+      alt="Marine Archipelago"
+      onClick={()=>navigate("/")}
      />
      
      {/* HAMBURGER NAV */}
@@ -23,7 +24,7 @@ const Nav = ({nav,toggleNav}) => (
 						onChange={toggleNav}
 					/>
 						<label htmlFor="hamburger" className={classes.navButton}>
-							<span></span>
+						<div><span></span></div>
      </label>
      
 
@@ -31,7 +32,6 @@ const Nav = ({nav,toggleNav}) => (
         <li>
          <Link
            className={classes.link}
-            onClick={toggleNav}
             to="/">
             Home
           </Link>
@@ -39,7 +39,6 @@ const Nav = ({nav,toggleNav}) => (
         <li>
           <Link
            className={classes.link}
-            onClick={toggleNav}
             to="/about">
             About us
           </Link>
@@ -47,7 +46,6 @@ const Nav = ({nav,toggleNav}) => (
        <li>
          <Link
             className={classes.link}
-            onClick={toggleNav}
             to="/contact">
             Contact us
           </Link>

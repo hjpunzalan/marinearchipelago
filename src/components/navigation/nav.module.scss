@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 
 
     @media only screen and (max-width: 600px) {
@@ -19,6 +20,7 @@
 .logo {
     z-index: 100;
     width: 20rem;
+    cursor: pointer;
 
     @media only screen and (max-width: 750px) {
         width: 15rem;
@@ -140,6 +142,11 @@ input[type="checkbox"] {
     width: 0;
     height: 0;
 
+    &:checked+.navButton div {
+        position: relative;
+        height: 2rem;
+    }
+
     &:checked+.navButton span {
         height: 0;
     }
@@ -155,6 +162,10 @@ input[type="checkbox"] {
     }
 }
 
+.navButton div {
+    z-index: 100;
+    padding: .5rem;
+}
 
 .navButton span,
 .navButton span::before,

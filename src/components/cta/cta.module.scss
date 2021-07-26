@@ -1,0 +1,29 @@
+.cta {
+    width: 25rem;
+    padding: 2rem;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    &:hover {
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.801);
+        color: rgb(0, 0, 0);
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        width: 20rem;
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 450px) {
+        font-size: 1.6rem;
+    }
+}
