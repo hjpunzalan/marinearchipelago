@@ -11,18 +11,17 @@ import PropTypes from "prop-types"
 
 import "../styles/_main.scss"
 import Footer from "./footer/footer"
+import { Helmet } from "react-helmet"
 
 
 const Layout = ({ children, mainClassName, nav }) => {
-  if (nav) {
-    document.body.style.overflow = 'hidden'
-  } else {
-    document.body.style.overflow = 'unset'
-  }
 
 
   return (
     <>
+      <Helmet>
+        <body style={`overflow:${nav ? "hidden" : "unset"}`} />
+      </Helmet>
         <main className={mainClassName}>{children}</main>
     <Footer />
     </>
