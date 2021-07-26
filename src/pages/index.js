@@ -9,6 +9,7 @@ import Cta from '../components/cta/cta'
 
 import "../styles/_main.scss";
 import * as classes from "../styles/pages/index/index.module.scss"
+import { navigate } from "gatsby";
 
 
 const IndexPage = () => {
@@ -27,7 +28,7 @@ const IndexPage = () => {
        <h1>
         Discover world-class marine and subsea expertise
         </h1>
-       <Cta desc="Learn more"/>
+       <Cta handleClick={()=> navigate("/about")} desc="Learn more"/>
       </div>
       </Container>
     </header>

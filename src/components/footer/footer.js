@@ -1,3 +1,4 @@
+import { navigate } from 'gatsby'
 import React from 'react'
 import Cta from '../cta/cta'
 
@@ -6,7 +7,7 @@ import * as classes from "./footer.module.scss"
 function Footer() {
     return (
         <footer>
-      <Cta desc="Contact Us"/>
+        <Cta handleClick={() => navigate("/contact")} desc="Contact Us"/>
       <div className={classes.contact}>
           <div>
             <h3>Reginald Soriano</h3>
