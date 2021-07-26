@@ -41,11 +41,16 @@ input[type="submit"] {
 h1 {
     font-size: 5rem;
 
-    @media only screen and (max-width: 1500px) and (min-width: 1200px) {
+    @media only screen and (max-width: 1500px) {
         font-size: 3.5rem;
     }
+
 
     @media only screen and (max-width: 450px) {
         font-size: 3.2rem;
     }
+}
+
+p {
+    line-height: 1.5;
 }
