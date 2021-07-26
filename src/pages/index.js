@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Container from '../components/container/container'
 import Nav from '../components/navigation/nav'
+import Cta from '../components/cta/cta'
 
 import "../styles/_main.scss";
 import * as classes from "../styles/pages/index/index.module.scss"
@@ -26,30 +27,35 @@ const IndexPage = () => {
        <h1>
         Discover world-class marine and subsea expertise
         </h1>
-       <button className={classes.cta}>
-        Learn more
-        </button>
+       <Cta desc="Learn more"/>
       </div>
       </Container>
     </header>
     
-{/*  ================== ABOUT =================== */}
+      {/*  ================== ABOUT =================== */}
+       <Container>
     <section className={classes.about}>
-      <h1>Archipelago Marine is the new industry gold standard</h1>
+          <h1>Archipelago Marine is the new industry gold standard</h1>
+          <div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Nihil doloribus quia perspiciatis dolores commodi cum corporis distinctio molestiae consectetur.
         Rerum quod asperiores ratione quas, molestias ut deleniti blanditiis necessitatibus alias.
+        </p>
+        <br/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam dolore provident mollitia, ipsam rem asperiores consequuntur! Dolores, blanditiis?
+          Corrupti, praesentium possimus molestiae quae facere adipisci eligendi temporibus assumenda cumque!
       </p>
+          </div>
 
       <div className={classes.partners}>
          <StaticImage
       className={classes.logo}
-      src="../images/logos/furuno.png"
+      src="..\images\logos\furuno.png"
       placeholder= "BLURRED"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Furuno"
     />
-        m <StaticImage
+         <StaticImage
       className={classes.logo}
       src="../images/logos/jlaudio.png"
       placeholder= "BLURRED"
@@ -86,29 +92,7 @@ const IndexPage = () => {
     />
       </div>
     </section>
-
-
-{/*  ================== CONTACT =================== */}
-    <section className={classes.contact}>
-      <button className={classes.cta}>Contact Us</button>
-      <div className={classes.contactCompany}>
-          <div>
-            <h3>Reginald Soriano</h3>
-            <p>
-            Managing Director Electrical<br/>
-            0430 454 466<br />
-            </p>
-          </div>
-          <div>
-            <h3>Paul Hill</h3>
-            <p>
-              Managing Director Electronics<br />
-              0400 028 582<br />
-              </p>
-          </div>
-      </div>
-
-    </section>
+    </Container>
   </Layout>
 )}
 
