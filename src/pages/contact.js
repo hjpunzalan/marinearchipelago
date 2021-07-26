@@ -53,7 +53,7 @@ const ContactPage = () => {
         <section className={classes.contact} style={{flexDirection: state.succeeded? "column": "flex"}}>
           <div>
           {
-            state.succeeded ? <p className={classes.thankMessage}>Thanks for your interest in Marine Archipelago. We will reach out to you shortly. Cheers!</p> :
+            state.succeeded ? <p className={classes.thankMessage}>Thanks for your interest in Archipelago Marine. We will reach out to you shortly. Cheers!</p> :
             <form onSubmit={handleSubmit}>
                   <h2>Send us a message</h2>
                   <div className={classes.container}>
@@ -130,7 +130,7 @@ const ContactPage = () => {
           <div className={classes.companyInfo}>
             <div>
             <h3>Email</h3>
-            <p>admin@marinearchiepelago.com.au</p>
+            <p>admin@archipelagomarine.com.au</p>
             <h3>Address</h3>
             <p>
               1103 Lambden Rd, Karratha Industrial Estate WA 6714

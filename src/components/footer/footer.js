@@ -26,7 +26,7 @@ function Footer() {
 
         </div>
         <span className={classes.copyright}>
-          © {new Date().getFullYear()} Marine Archipelago. All rights reserved.
+          © {new Date().getFullYear()} Archipelago Marine. All rights reserved.
         </span>
         </footer>
     )

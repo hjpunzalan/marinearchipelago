@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/marinearchipelago",
   siteMetadata: {
-    title: `Marine Archipelago`,
+    title: `Archipelago Marine`,
     description: `Discover world-class marine and subsea expertise`,
-    author: `marinearchiepelago`,
+    author: `archipelagomarine`,
   },
   plugins: [
     {
