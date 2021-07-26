@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Marine Archipelago`,
-    description: `Insert description here`,
+    description: `Discover world-class marine and subsea expertise`,
     author: `marinearchiepelago`,
   },
   plugins: [

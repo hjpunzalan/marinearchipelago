@@ -7,12 +7,11 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-
-
-import "../styles/_main.scss"
-import Footer from "./footer/footer"
+import Footer from "../footer/footer"
 import { Helmet } from "react-helmet"
 
+import "../../styles/_main.scss"
+import * as classes from "./layout.module.scss"
 
 const Layout = ({ children, mainClassName, nav }) => {
 
@@ -20,7 +19,7 @@ const Layout = ({ children, mainClassName, nav }) => {
   return (
     <>
       <Helmet>
-        <body style={`overflow:${nav ? "hidden" : "unset"}`} />
+        <body className={nav ? classes.bodyClassNavOpen : classes.bodyClassNavClosed} />
       </Helmet>
         <main className={mainClassName}>{children}</main>
     <Footer />
