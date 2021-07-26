@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/marinearchipelago",
   siteMetadata: {
     title: `Marine Archipelago`,
     description: `Discover world-class marine and subsea expertise`,
