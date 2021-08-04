@@ -18,7 +18,7 @@ const IndexPage = () => {
 
   return(
   <Layout mainClassName={classes.main} nav={nav}>
-    <Seo title="Archipelago Marine" description="Discover world-class marine and subsea expertise" />
+    <Seo title="Home" description="Discover world-class marine and subsea expertise" />
 
 {/*  ================== HEADER ================== */}
      <header className={classes.header}>

@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Marine Archipelago`,
+        name: `Archipelago Marine`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `rgba(0, 53, 97, 1)`,
