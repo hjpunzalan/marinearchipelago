@@ -133,7 +133,9 @@ const ContactPage = () => {
             <p>admin@archipelagomarine.com.au</p>
             <h3>Address</h3>
             <p>
-              1103 Lambden Rd, Karratha Industrial Estate WA 6714
+                Lot 2, Dampier Shopping Arcade <br />
+                15 High Street <br />
+                Dampier WA 6713
             </p>
             </div>
           <iframe
@@ -144,7 +146,7 @@ const ContactPage = () => {
             placeholder= "BLURRED"
             loading="lazy"
             allowfullscreen
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLezZghRr9isRaFFMS1rIJiM&key=AIzaSyA494M6sS0tEAq8JvvEH8d3R685xEhij48"></iframe>
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJu38c2ws89isRYYpAmbVBo3c&key=AIzaSyA494M6sS0tEAq8JvvEH8d3R685xEhij48"></iframe>
             </div>
     </section>
     </Container>
