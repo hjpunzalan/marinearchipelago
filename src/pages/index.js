@@ -38,14 +38,11 @@ const IndexPage = () => {
     <section className={classes.about}>
           <h1>Archipelago Marine is the new industry gold standard</h1>
           <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Nihil doloribus quia perspiciatis dolores commodi cum corporis distinctio molestiae consectetur.
-        Rerum quod asperiores ratione quas, molestias ut deleniti blanditiis necessitatibus alias.
-        </p>
-        <br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam dolore provident mollitia, ipsam rem asperiores consequuntur! Dolores, blanditiis?
-          Corrupti, praesentium possimus molestiae quae facere adipisci eligendi temporibus assumenda cumque!
-      </p>
+            <h3>Our full suite of services ranges from leisure crafts to deep sea offshore vessels.
+              <br/>
+              <br/>
+              We guarantee the highest quality of work meeting all regulatory and licensing standards and our team consistently goes above and beyond to provide exemplary solutions.
+        </h3>
           </div>
 
       <div className={classes.partners}>
