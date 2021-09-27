@@ -3,7 +3,9 @@ module.exports = {
   siteMetadata: {
     title: `Archipelago Marine`,
     description: `Discover world-class marine and subsea expertise`,
-    author: `archipelagomarine`,
+    author: `@archipelagomarine`,
+    keywords: `electrical, electronic, marine, pilbara, marine communication, navigational, navigation, thermal imaging, switchboard inspections, electrical equipment testing, power distribution system`,
+    image: `src/images/logo-icon.png`
   },
   plugins: [
     {
