@@ -30,14 +30,25 @@ const AboutPage = () => {
       <Container>
     <section className={classes.about}>
        <div className={classes.paragraph}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Nihil doloribus quia perspiciatis dolores commodi cum corporis distinctio molestiae consectetur.
-        Rerum quod asperiores ratione quas, molestias ut deleniti blanditiis necessitatibus alias.
+            <p>With over 44 years of experience in the marine industry between the Co-Founders Paul Hill and Reginald Soriano.
+              Archipelago Marine was established in Karratha with the main goal of providing quality, electrical and electronics services to the marine industry in the Pilbara.
+              Archipelago Marine prides itself in delivering work to the highest standard, safely and efficiently to meet and go beyond our clients’ expectations.
+            </p><br/>
+            <p>
+              Archipelago Marine is committed to ensure that all survey requirements pertaining to the vessel are always met to guarantee safe vessel operations.
+              From personal leisure crafts to deep sea vessels Archipelago Marine can provide but not limited to the following services:
         </p>
-        <br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam dolore provident mollitia, ipsam rem asperiores consequuntur! Dolores, blanditiis?
-          Corrupti, praesentium possimus molestiae quae facere adipisci eligendi temporibus assumenda cumque!
-            </p>
+            <br />
+            <ul>
+              <li>AC 240/415V Electrical System: Installation, Modification & Troubleshooting</li>
+              <li>DC 12/24V Electrical System: Installation, Modification & Troubleshooting</li>
+              <li>Marine Communication Equipment: Installation, Modification & Troubleshooting</li>
+              <li>Marine Navigational Equipment: Installation, Modification & Troubleshooting</li>
+              <li>Generator & Power Distribution System: Modification & Troubleshooting</li>
+              <li>RCD & Insulation Resistance Testing</li>
+              <li>Switchboard Inspections & Thermal Imaging</li>
+              <li>Electrical Equipment Testing + Tagging</li>
+            </ul>
        </div>
             
             <StaticImage
