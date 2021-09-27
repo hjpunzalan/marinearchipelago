@@ -44,6 +44,10 @@ function Seo({ description, lang, meta, title }) {
           name: `description`,
           content: metaDescription,
         },
+                {
+          name: `keywords`,
+          content: keywords,
+        },
         {
           property: `og:title`,
           content: title,
