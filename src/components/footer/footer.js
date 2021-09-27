@@ -25,6 +25,9 @@ function Footer() {
           </div>
 
         </div>
+        <span>
+          EC:14801
+        </span>
         <span className={classes.copyright}>
           © {new Date().getFullYear()} Archipelago Marine. All rights reserved.
         </span>
