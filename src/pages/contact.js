@@ -37,7 +37,7 @@ const ContactPage = () => {
 
   return (
     <Layout mainClassName={classes.main} nav={nav}>
-      <Seo title="Archipelago Marine" description="Contact us" />
+      <Seo title="Contact us" description="Send Archipelago marine a message. Contact us using our form." />
       
      <header className={classes.header}>
       <Container>

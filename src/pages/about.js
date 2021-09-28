@@ -16,7 +16,7 @@ const AboutPage = () => {
 
   return(
   <Layout mainClassName={classes.main} nav={nav}>
-    <Seo title="Archipelago Marine" description="About us" />
+      <Seo title="About us" description="Archipelago Marine was established in Karratha with the main goal of providing quality, electrical and electronics services to the marine industry in the Pilbara." />
 
      <header className={classes.header}>
       <Container>
